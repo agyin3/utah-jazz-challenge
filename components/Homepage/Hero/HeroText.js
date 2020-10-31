@@ -11,7 +11,7 @@ const HeroText = () => (
       explicabo repellendus, saepe quisquam eveniet, quas magni voluptatibus
       vitae. Provident, laudantium corporis quam voluptate temporibus illo.
     </p>
-    <a className="hero-link">Contact Us</a>
+    <a className="hero-link link-button">Contact Us</a>
   </div>
 );
 

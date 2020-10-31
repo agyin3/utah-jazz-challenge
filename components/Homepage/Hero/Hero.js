@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../Header/Header";
-import Container from "../UI/Container";
+import Header from "../../Header/Header";
+import Container from "../../UI/Container";
 import "./hero.module.css";
 import HeroText from "./HeroText";
 
