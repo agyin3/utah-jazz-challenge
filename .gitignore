@@ -102,3 +102,11 @@ dist
 
 # TernJS port file
 .tern-port
+
+# DS Store
+.DS_Store
+
+# txt and doc files 
+*.txt
+*.docx
+*.webloc
