@@ -1,9 +1,8 @@
 import React from "react";
 import "./container.module.css";
 
-const Container = ({ children }) => {
-  console.log(children);
-  return <div className="container">{children}</div>;
+const Container = ({ children, className }) => {
+  return <div className={`container ${className}`}>{children}</div>;
 };
 
 export default Container;
