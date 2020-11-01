@@ -1,6 +1,14 @@
 import React from "react";
-import Hero from "../Hero/Hero";
+import Hero from "../Homepage/Hero/Hero";
+import InfoCards from "../Homepage/InfoCards/InfoCards";
+import Options from "../Homepage/Options/Options";
 
-const Homepage = () => <Hero />;
+const Homepage = () => (
+  <React.Fragment>
+    <Hero />
+    <InfoCards />
+    <Options />
+  </React.Fragment>
+);
 
 export default Homepage;

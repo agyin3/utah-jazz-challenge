@@ -1,7 +1,6 @@
 .cards-wrapper {
-  position: absolute;
-  top: 85vh;
-  left: 5%;
+  position: relative;
+  top: -15vh;
   display: flex;
   justify-content: space-between;
 }
