@@ -9,7 +9,7 @@ const cardInformation = [
   {
     heading: "LUXURY SUITES",
     info:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quam accusamus, quod, architecto, repudiandae dolorum deserunt dolore ipsa corporis quo voluptate voluptas quos saepe odit eius id.",
+      "Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Porro cumque, id, et placeat suscipit atque nobis deserunt explicabo doloremque aliquid, consectetur.",
     image: suite,
   },
   {
