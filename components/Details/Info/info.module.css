@@ -75,7 +75,6 @@ Parking Styling
   max-width: 80%;
   margin: 0 auto;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
   column-gap: 10em;
 }
 
@@ -117,4 +116,40 @@ Uses Styling
 
 .uses-sub-heading {
   font-size: 2em;
+}
+
+/* ==================================================
+Media Queries
+================================================== */
+
+@media (max-width: 500px) {
+  .info-containers {
+    flex-direction: column !important;
+  }
+
+  .benefits-container {
+    flex-direction: column !important;
+  }
+
+  .benefits-grid {
+    column-gap: 2em;
+    max-width: 100%;
+  }
+  .parking-grid {
+    display: grid;
+    max-width: 100%;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: none;
+    row-gap: 10em;
+  }
+
+  .uses-grid {
+    grid-template-columns: none;
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 5em;
+  }
+
+  .column {
+    flex-direction: column !important;
+  }
 }

@@ -30,6 +30,7 @@ const Header = () => {
           </a>
           <a className="nav-links">CONTACT US</a>
         </nav>
+        <FontAwesomeIcon icon="bars" className="yellow-text menu-hamburger" />
       </div>
     </header>
   );

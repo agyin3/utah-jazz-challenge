@@ -35,3 +35,18 @@ nav {
   color: var(--primary-yellow);
   font-size: 1.4em;
 }
+
+.menu-hamburger {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  nav {
+    display: none;
+  }
+
+  .menu-hamburger {
+    display: inline;
+    font-size: 1.6em;
+  }
+}

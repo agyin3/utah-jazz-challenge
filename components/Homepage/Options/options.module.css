@@ -35,3 +35,19 @@
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 300;
 }
+
+/*==================================================
+Media Queries
+================================================== */
+
+@media (max-width: 500px) {
+  .option-container {
+    width: 45%;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+
+  .option-link {
+    text-align: center;
+  }
+}

@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { Fragment } from "react";
+import React from "react";
 
 const usesData = [
   {

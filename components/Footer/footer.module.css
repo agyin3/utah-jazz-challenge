@@ -87,3 +87,18 @@ footer {
   font-size: 2em;
   margin-right: 0.5em;
 }
+
+/*==================================================
+Media Queries
+================================================== */
+
+@media (max-width: 500px) {
+  .footer-wrapper {
+    flex-direction: column;
+  }
+
+  .footer-info,
+  .form-wrapper {
+    width: 100%;
+  }
+}

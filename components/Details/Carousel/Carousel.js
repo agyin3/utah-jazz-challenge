@@ -18,7 +18,10 @@ const Carousel = () => {
   const viewLeft = (image) => {
     image === 0 ? setImage(images.length - 1) : setImage(image - 1);
   };
-  console.log(images[1]);
+
+  const selectImage = (idx) => {
+    setImage(idx);
+  };
 
   return (
     <section>
@@ -48,6 +51,7 @@ const Carousel = () => {
                 idx === image ? "yellow-text" : null
               }`}
               icon="circle"
+              onClick={() => selectImage(idx)}
             />
           ))}
         </div>
