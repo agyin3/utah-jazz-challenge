@@ -3,7 +3,7 @@ import React from "react";
 
 const Parking = () => {
   return (
-    <div className="flex blue-border info-padding">
+    <div className="flex blue-border info-padding column">
       <h2 className="info-heading">
         PARKING & <br />
         CHECK-IN

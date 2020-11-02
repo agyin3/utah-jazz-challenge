@@ -4,6 +4,7 @@ import Homepage from "./components/views/Homepage";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faAngleLeft,
+  faBars,
   faCar,
   faCaretDown,
   faCheckCircle,
@@ -34,7 +35,8 @@ library.add(
   faPlusCircle,
   faStreetView,
   faLightbulb,
-  faUsers
+  faUsers,
+  faBars
 );
 
 const App = () => {

@@ -44,3 +44,26 @@
   max-width: 90%;
   height: auto;
 }
+
+/*==================================================
+Media Queries
+================================================== */
+
+@media (max-width: 500px) {
+  .hclub-section {
+    margin: 2em auto;
+  }
+
+  .hclub-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .text-container {
+    width: 100%;
+  }
+
+  .hclub-image-wrapper {
+    max-width: 100%;
+    width: 100%;
+  }
+}

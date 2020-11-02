@@ -21,6 +21,8 @@
 .card-text-container {
   width: 85%;
   margin: 0 auto;
+  padding-top: 1em;
+  padding-bottom: 2em;
 }
 
 .card-heading {
@@ -42,4 +44,19 @@
 .card-link:hover {
   background: var(--primary-yellow);
   color: var(--primary-blue) !important;
+}
+
+/* ==================================================
+Media Queries
+================================================== */
+
+@media (max-width: 600px) {
+  .cards-wrapper {
+    flex-direction: column;
+  }
+
+  .card-container {
+    width: 100%;
+    margin-bottom: 1em;
+  }
 }

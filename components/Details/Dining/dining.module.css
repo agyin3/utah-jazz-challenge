@@ -17,3 +17,13 @@
   top: 75%;
   background: rgba(0, 0, 0, 0.8);
 }
+
+/* ==================================================
+Media Queries
+================================================== */
+
+@media (max-width: 500px) {
+  .dining-text {
+    text-align: center !important;
+  }
+}
