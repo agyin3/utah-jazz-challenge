@@ -53,7 +53,7 @@ const usesData = [
 
 const Uses = () => {
   return (
-    <div>
+    <div className="info-padding">
       <span className="flex">
         <FontAwesomeIcon
           className="yellow-text info-heading uses-icon"

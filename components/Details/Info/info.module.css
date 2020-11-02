@@ -2,6 +2,11 @@
   border-bottom: 1px solid var(--secondary-blue);
 }
 
+.info-padding {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
 .info-containers {
   width: 100%;
   justify-content: space-between;
@@ -27,6 +32,11 @@
   background: var(--primary-yellow);
   border-radius: 0.25em;
   padding: 0.5em 1em;
+}
+
+.about-content {
+  display: flex;
+  align-items: inherit;
 }
 
 /* ==================================================

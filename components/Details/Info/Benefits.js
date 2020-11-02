@@ -16,7 +16,7 @@ const benefitsData = [
 
 const Benefits = () => {
   return (
-    <div className="flex benefits-container blue-border">
+    <div className="flex benefits-container blue-border info-padding">
       <h2 className="info-heading">
         BENEFITS & <br />
         AMENITIES
