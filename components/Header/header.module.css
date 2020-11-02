@@ -1,8 +1,11 @@
 header {
+  border-bottom: 2px solid var(--white);
+}
+
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid var(--white);
 }
 
 .header-img {
