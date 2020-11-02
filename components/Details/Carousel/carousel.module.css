@@ -1,0 +1,48 @@
+.carousel-container {
+  height: 80vh;
+  width: 100%;
+}
+
+.carousel-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-cntrl-wrapper {
+  position: relative;
+  margin: 0 auto;
+  top: -50%;
+  width: 95%;
+  justify-content: space-between;
+}
+
+.carousel-cntrl {
+  font-size: 5em;
+  cursor: pointer;
+}
+
+.carousel-idx {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  top: -17.5%;
+}
+
+.carousel-page {
+  font-size: 2.4em;
+  margin: 0 0.5em;
+  cursor: pointer;
+}
+
+.carousel-info {
+  background-color: var(--primary-yellow);
+  color: var(--primary-blue);
+  font-size: 2.4em;
+}
+
+.carousel-info-icon {
+  font-size: 3.2rem;
+  margin-right: 1rem;
+}

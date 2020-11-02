@@ -6,8 +6,11 @@
   --white: #ffffff;
 }
 
-body {
+html {
   font-size: 62.5%;
+}
+
+body {
   color: var(--white);
   box-sizing: border-box;
 }

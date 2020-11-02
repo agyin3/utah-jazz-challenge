@@ -6,13 +6,13 @@ import InfoCards from "../Homepage/InfoCards/InfoCards";
 import Options from "../Homepage/Options/Options";
 
 const Homepage = () => (
-  <React.Fragment>
+  <main>
     <Hero />
     <InfoCards />
     <Options />
     <HClub />
     <Footer />
-  </React.Fragment>
+  </main>
 );
 
 export default Homepage;
