@@ -3,12 +3,15 @@ import Homepage from "./components/views/Homepage";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faAngleLeft,
+  faCar,
   faCaretDown,
   faCheckCircle,
   faCircle,
   faEnvelope,
   faInfoCircle,
+  faMapSigns,
   faPhoneSquareAlt,
+  faPlusCircle,
 } from "@fortawesome/free-solid-svg-icons";
 
 import Details from "./components/views/Details";
@@ -22,7 +25,10 @@ library.add(
   faFilePdf,
   faAngleLeft,
   faCircle,
-  faInfoCircle
+  faInfoCircle,
+  faCar,
+  faMapSigns,
+  faPlusCircle
 );
 
 const App = () => {
