@@ -49,6 +49,11 @@ Global CSS Classes
   align-items: center;
 }
 
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
 .blue-bg {
   background: var(--primary-blue);
 }
@@ -65,4 +70,8 @@ Global CSS Classes
   font-size: 2.3em;
   border-radius: 5px;
   padding: 0.2em 1em;
+}
+
+.secondary-blue {
+  color: var(--secondary-blue);
 }

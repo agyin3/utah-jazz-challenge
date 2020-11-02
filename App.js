@@ -1,4 +1,5 @@
 import React from "react";
+import { Switch, Route } from "react-router-dom";
 import Homepage from "./components/views/Homepage";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
@@ -12,10 +13,12 @@ import {
   faMapSigns,
   faPhoneSquareAlt,
   faPlusCircle,
+  faStreetView,
+  faUsers,
 } from "@fortawesome/free-solid-svg-icons";
 
 import Details from "./components/views/Details";
-import { faFilePdf } from "@fortawesome/free-regular-svg-icons";
+import { faFilePdf, faLightbulb } from "@fortawesome/free-regular-svg-icons";
 
 library.add(
   faPhoneSquareAlt,
@@ -28,13 +31,23 @@ library.add(
   faInfoCircle,
   faCar,
   faMapSigns,
-  faPlusCircle
+  faPlusCircle,
+  faStreetView,
+  faLightbulb,
+  faUsers
 );
 
 const App = () => {
   return (
-    // <Homepage />
-    <Details />
+    <Switch>
+      <Route path="/details">
+        <Details />
+      </Route>
+      <Route path="/">
+        <Homepage />
+        {/* <Details /> */}
+      </Route>
+    </Switch>
   );
 };
 
