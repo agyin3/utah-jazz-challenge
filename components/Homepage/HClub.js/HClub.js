@@ -8,7 +8,9 @@ const HClub = () => (
   <section className="hclub-section flex">
     <Container className="hclub-wrapper">
       <HClubText />
-      <img className="hclub-image" src={HClubImg} />
+      <span className="hclub-image-wrapper">
+        <img className="hclub-image" src={HClubImg} />
+      </span>
     </Container>
   </section>
 );

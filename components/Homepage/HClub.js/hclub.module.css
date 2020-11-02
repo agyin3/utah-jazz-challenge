@@ -36,7 +36,11 @@
   font-weight: 700;
 }
 
+.hclub-image-wrapper {
+  max-width: 45%;
+}
+
 .hclub-image {
-  width: 45%;
-  max-height: 50vh;
+  max-width: 90%;
+  height: auto;
 }

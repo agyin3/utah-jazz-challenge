@@ -8,7 +8,7 @@
 .card-container {
   width: 49%;
   background: var(--primary-blue);
-  height: 50em;
+  min-height: 50em;
 }
 
 .card-image {
