@@ -14,7 +14,7 @@ const Header = () => {
         }`}
       >
         <div className="flex">
-          <img className="header-img" src={logo} />
+          <img className="header-img" src={logo} alt="Utah Jazz Logo" />
           <a className="home-link">UTAH JAZZ PREMIUM SEATING</a>
         </div>
         <nav>

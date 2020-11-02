@@ -7,7 +7,11 @@ const Carousel = () => {
   return (
     <section>
       <div className="carousel-container">
-        <img className="carousel-image" src={suiteDetail} />
+        <img
+          className="carousel-image"
+          src={suiteDetail}
+          alt="Inside view of suite"
+        />
         <div className="flex carousel-cntrl-wrapper">
           <FontAwesomeIcon
             className="carousel-cntrl yellow-text"

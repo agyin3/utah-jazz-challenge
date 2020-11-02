@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://agyin3.github.io/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agyin3/utah-jazz-challenge.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "rm -rf dist && parcel build index.html --public-url utah-jazz",
-    "deploy": "gh-pages -d dist", 
+    "predeploy": "rm -rf dist && parcel build index.html --public-url utah-jazz-challenge",
+    "deploy": "gh-pages -d dist",
     "start": "parcel index.html --open",
     "build": "NODE_ENV=production parcel build index.html"
   },

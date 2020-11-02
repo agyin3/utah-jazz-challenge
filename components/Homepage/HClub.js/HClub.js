@@ -9,7 +9,11 @@ const HClub = () => (
     <Container className="hclub-wrapper">
       <HClubText />
       <span className="hclub-image-wrapper">
-        <img className="hclub-image" src={HClubImg} />
+        <img
+          className="hclub-image"
+          src={HClubImg}
+          alt="Utah Jazz 100 Club Logo"
+        />
       </span>
     </Container>
   </section>
