@@ -1,0 +1,46 @@
+.hclub-section {
+  min-height: 80vh;
+}
+
+.hclub-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.text-container {
+  width: 50%;
+}
+
+.hclub-heading {
+  font-size: 3.2em;
+  color: var(--primary-blue);
+  font-weight: 400;
+}
+
+.hclub-sub-heading {
+  font-size: 2em;
+  color: var(--black);
+  font-weight: 700;
+}
+
+.hclub-info {
+  font-size: 2em;
+  color: var(--black);
+}
+
+.hclub-link {
+  text-decoration: underline;
+  font-size: 1.8em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.hclub-image-wrapper {
+  max-width: 45%;
+}
+
+.hclub-image {
+  max-width: 90%;
+  height: auto;
+}

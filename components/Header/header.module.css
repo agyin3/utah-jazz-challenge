@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--white);
+}
+
+.header-img {
+  width: 20%;
+}
+
+.home-link {
+  font-size: 1.8em;
+  margin-left: 1.5em;
+}
+
+.menu-icon {
+  color: var(--white);
+  margin-left: 0.2em;
+}
+
+nav {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  color: var(--primary-yellow);
+  font-size: 1.4em;
+}

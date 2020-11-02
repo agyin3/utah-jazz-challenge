@@ -1,0 +1,65 @@
+:root {
+  --primary-blue: #0e223f;
+  --primary-yellow: #f89f20;
+  --light-blue: #9dc7ff;
+  --black: #000000;
+  --white: #ffffff;
+}
+
+body {
+  font-size: 62.5%;
+  color: var(--white);
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+p,
+a {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* ==================================================
+Global CSS Classes
+================================================== */
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.blue-bg {
+  background: var(--primary-blue);
+}
+
+.yellow-text {
+  color: var(--primary-yellow);
+}
+
+.center-text {
+  text-align: center;
+}
+
+.link-button {
+  font-size: 2.3em;
+  border-radius: 5px;
+  padding: 0.2em 1em;
+}

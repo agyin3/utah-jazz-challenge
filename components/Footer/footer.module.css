@@ -1,0 +1,84 @@
+footer {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.footer-heading {
+  font-size: 3.2em;
+}
+
+.footer-wrapper {
+  justify-content: space-between;
+  align-items: flex-start !important;
+}
+
+.form-wrapper,
+.footer-info {
+  width: 45%;
+}
+
+.form-wrapper form {
+  width: 100%;
+}
+
+.input-container,
+.input-container input,
+.input-container select,
+.input-container textarea {
+  width: 100%;
+  font-size: 1.4em;
+}
+
+.input-container input,
+.input-container select {
+  min-height: 1.8em;
+  border-radius: 5px;
+  margin: 0.5em 0;
+}
+
+.input-container label {
+  margin-left: 0.2em;
+  font-size: 1.6em;
+  font-weight: 700;
+}
+
+.input-container select {
+  font-family: "Roboto", sans-serif;
+}
+
+.form-wrapper button {
+  color: var(--primary-blue);
+  background: var(--primary-yellow);
+  border: none;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 0.5em;
+}
+.form-icon {
+  margin-right: 00.5em;
+}
+
+.footer-link {
+  font-size: 2.4em;
+  margin-bottom: 1em;
+}
+
+#footer-email {
+  text-decoration: underline;
+}
+
+.contact-info {
+  margin-bottom: 2em;
+}
+
+.footer-text {
+  font-size: 2em;
+  line-height: 1.5;
+}
+
+.footer-icons {
+  font-size: 2em;
+  margin-right: 0.5em;
+}
