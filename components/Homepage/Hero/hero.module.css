@@ -12,7 +12,10 @@
 }
 
 .hero-text-container {
-  margin-top: 10em;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-heading {
