@@ -13,7 +13,10 @@ const FooterText = () => {
           }`}
           icon="phone-square-alt"
         />
-        <a className="footer-link"> 801.325.2203</a>
+        <a href="#" className="footer-link">
+          {" "}
+          801.325.2203
+        </a>
       </div>
       <div className="contact-info">
         <FontAwesomeIcon
@@ -22,7 +25,7 @@ const FooterText = () => {
           }`}
           icon="envelope"
         />
-        <a id="footer-email" className="footer-link">
+        <a href="#" id="footer-email" className="footer-link">
           premium@utahjazz.com
         </a>
       </div>

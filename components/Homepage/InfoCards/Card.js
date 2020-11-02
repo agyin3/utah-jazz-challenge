@@ -6,7 +6,9 @@ const Card = ({ heading, info, image }) => (
     <div className="card-text-container">
       <h2 className="card-heading yellow-text">{heading}</h2>
       <p className="card-info">{info}</p>
-      <a className="yellow-text card-link link-button">Learn More</a>
+      <a href="/details" className="yellow-text card-link link-button">
+        Learn More
+      </a>
     </div>
   </div>
 );

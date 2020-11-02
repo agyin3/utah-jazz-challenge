@@ -16,6 +16,7 @@ header {
 .home-link {
   font-size: 1.8em;
   margin-left: 1.5em;
+  color: var(--white);
 }
 
 .menu-icon {

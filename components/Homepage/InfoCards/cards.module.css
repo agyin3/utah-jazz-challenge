@@ -36,4 +36,10 @@
 
 .card-link {
   border: 1px solid var(--primary-yellow);
+  transition: all 0.5s;
+}
+
+.card-link:hover {
+  background: var(--primary-yellow);
+  color: var(--primary-blue) !important;
 }
