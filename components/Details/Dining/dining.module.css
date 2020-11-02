@@ -1,0 +1,19 @@
+.dining-section {
+  height: 60vh;
+  width: 100%;
+  background-position: left 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dining-text {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.8em;
+  font-weight: 300;
+  height: 25%;
+  top: 75%;
+  background: rgba(0, 0, 0, 0.8);
+}
